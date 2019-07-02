@@ -1,0 +1,6 @@
+# mysql 组复制
+## 重启集群
+> 让该节点成为主节点，其他节点复制该节点上的数据
+>>     SET GLOBAL group_replication_bootstrap_group = ON; 
+
+> `start group_replication; `	# 启动
